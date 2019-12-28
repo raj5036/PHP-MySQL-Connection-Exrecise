@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        $password="Raj Loves Subarna But he Doesn't Get Anything In Return";
+        $password="He is a coder";
         $hashedPassword=password_hash($password,PASSWORD_DEFAULT);
         echo($hashedPassword."<br><br>");
         
